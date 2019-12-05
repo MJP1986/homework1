@@ -17,7 +17,7 @@ body {
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    line-height: 80px;
+    line-height: 2px;
 }
   
 #logo {
@@ -28,10 +28,20 @@ body {
     width: 240px;
     height: 85px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 80px;
 }
 
 .header-right {
     float: right;
+    margin-top: 40px;
+}
+
+.header-right a {
+    border-left: 1px solid #cccccc;
+}
+
+.header-right a:first-child {
+    border-left: none;
 }
 
 h1 {
@@ -108,7 +118,6 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 
